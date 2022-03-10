@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+}
+.test{
+    height: 30px;
+    width: 100vw;
+    text-align: center;
+    font-size: 22px;
+    text-decoration: underline;
+    background-image: linear-gradient(to right, red,green,yellow)
+}
+.test1{
+    height: 80px;
+    background-color: rgb(131, 200, 212);
+    list-style-position: outside;
+    text-align: center;
+    border: 5px solid red;
+    border-radius: 30px;
+    margin: 10px 300px;
+    align-items: center;
+}
+.testB{
+    height: 270px;
+    border: 2px solid brown;
+    background-color: rgb(80, 187, 151);
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.testb{
+    height: 80px;
+    width: 350px;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: aqua;
+    margin: 0;
+}
+.trial{
+    margin-top: -100px;
+}
+.test2{
+    height: 30px;
+    width: 100vw;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    text-decoration: underline red;
+    background-image: linear-gradient(to right, red,yellow,red)
+}
+.testA{
+    height: 300px;
+    border: 3px solid rgba(4, 90, 8, 0.918);
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    background-image: radial-gradient(
+        blue ,
+        green
+    )
+}
+.testa{
+    height: 100px;
+    width: 180px;
+    color: brown;
+    text-align: center;
+    line-height: 34px;
+    font-size: 12px;
+    text-decoration: underline brown;
+    border: 2px solid rgb(116, 45, 33);
+    border-radius: 10px;
+    font-size: 22px;
+    background-color: yellow;
+    margin: 0;
+}
+.grid-container{
+    width: 100%;
+    margin: 50px 10px;
+    border: 1px solid grey;
+    display: grid;
+    color: white;
+    grid-template-rows: 40px 70px 200px 20px;
+    grid-template-columns: repeat(3, 1fr) 150px;
+    gap: 20px;
+
+}
+.div1{
+    background-color: red;
+    grid-column: 1/-1;
+    font-size: 25px;
+    text-align: center;
+}
+.div2{
+    background-color: rgb(44, 160, 44);
+    font-size: 25px;
+    text-align: center;
+}
+.div3{
+    background-color: dodgerblue;
+    font-size: 30px;
+}
+.div4{
+    background-color: rgb(53, 29, 189);
+    font-size: 20px;
+}
+.div5{
+    background-color: black;
+    grid-row: 2/4;
+    grid-column: 4/5;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.div6{
+    background-color: orangered;
+    grid-column: 1/4;
+    font-size: 25px;
+}
+.div7{
+    background-color: aqua;
+    grid-column: 1/-1;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
